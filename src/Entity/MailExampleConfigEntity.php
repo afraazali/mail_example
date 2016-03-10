@@ -22,7 +22,10 @@ use Drupal\mail_example\Entity\MailExampleConfigEntityInterface;
  *       "add" = "Drupal\mail_example\Form\MailExampleConfigEntityForm",
  *       "edit" = "Drupal\mail_example\Form\MailExampleConfigEntityForm",
  *       "delete" = "Drupal\mail_example\Form\MailExampleConfigEntityDeleteForm"
- *     }
+ *     },
+ *     "route_provider" = {
+ *       "html" = "Drupal\Core\Entity\Routing\DefaultHtmlRouteProvider",
+ *     },
  *   },
  *   config_prefix = "mail_example",
  *   admin_permission = "administer site configuration",
