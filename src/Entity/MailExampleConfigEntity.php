@@ -35,7 +35,8 @@ use Drupal\mail_example\Entity\MailExampleConfigEntityInterface;
  *   },
  *   links = {
  *     "edit-form" = "/admin/structure/mail_examples/edit/{mail_example}",
- *     "delete-form" = "/admin/structure/mail_examples/delete/{mail_example}"
+ *     "delete-form" = "/admin/structure/mail_examples/delete/{mail_example}",
+ *     "collection" = "/admin/structure/mail_examples"
  *   }
  * )
  */
