@@ -1,0 +1,28 @@
+mail_example.entity.list:
+  path: '/admin/structure/mail_examples'
+  defaults:
+    _entity_list: 'mail_example'
+    _title: 'Mail Example'
+  requirements:
+    _permission: 'administer site configuration'
+mail_example.entity.add:
+  path: '/admin/structure/mail_examples/add'
+  defaults:
+    _entity_form: 'mail_example.add'
+    _title: 'Add a new mail_example'
+  requirements:
+    _permission: 'administer site configuration'
+entity.mail_example.edit_form:
+  path: '/admin/structure/mail_examples/edit/{mail_example}'
+  defaults:
+    _entity_form: 'mail_example.edit'
+    _title: 'Edit mail_example'
+  requirements:
+    _permission: 'administer site configuration'
+entity.mail_example.delete_form:
+  path: '/admin/structure/mail_examples/delete/{mail_example}'
+  defaults:
+    _entity_form: 'mail_example.delete'
+    _title: 'Delete mail_example'
+  requirements:
+    _permission: 'administer site configuration'

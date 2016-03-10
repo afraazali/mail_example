@@ -1,0 +1,17 @@
+mail_example.mail_example.*:
+  type: mapping
+  label: 'Mail Example Config'
+  mapping:
+    id:
+      type: string
+      label: 'Mail Example Config identifier'
+    uuid:
+      type: string
+      label: 'UUID'
+    subject:
+      type: label
+      label: 'Subject'
+    message:
+      type: longtext
+      label: 'Message'
+      translatable: true

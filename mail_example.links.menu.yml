@@ -1,0 +1,5 @@
+mail_example.entity.list:
+  title: 'Mail Example Configs'
+  description: 'Administer the mail_example entities'
+  parent: system.admin_structure
+  route_name: mail_example.entity.list

@@ -1,0 +1,5 @@
+mail_example.entity.add:
+  route_name: 'mail_example.entity.add'
+  title: 'Add MailExample'
+  appears_on:
+    - mail_example.entity.list
