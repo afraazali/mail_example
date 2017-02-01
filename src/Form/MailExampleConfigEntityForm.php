@@ -66,7 +66,7 @@ class MailExampleConfigEntityForm extends EntityForm {
       drupal_set_message($this->t('The @name config was NOT saved', ['@name' => $entity->id()]));
     }
     // Redirect the user back to list.
-    $form_state->setRedirect('mail_example.entity.list');
+    $form_state->setRedirect('entity.mail_example.list');
   }
 
 }
