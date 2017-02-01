@@ -29,7 +29,7 @@ class MailExampleConfigEntityDeleteForm extends EntityConfirmFormBase {
    *   A URL object.
    */
   public function getCancelUrl() {
-    return new Url('mail_example.entity.list');
+    return new Url('entity.mail_example.list');
   }
 
   /**
@@ -38,7 +38,7 @@ class MailExampleConfigEntityDeleteForm extends EntityConfirmFormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $this->entity->delete();
     drupal_set_message($this->t('Deleted @name', ['@name' => $this->entity->id()]));
-    $form_state->setRedirect('mail_example.entity.list');
+    $form_state->setRedirect('entity.mail_example.list');
   }
 
 }
